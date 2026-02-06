@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Modify the page title and background color to suit your setup. This background color matches gethomepage.dev's default dark mode widget color. -->
+  <title>Weather: Berlin, Germany</title>
+  <style>
+    body {
+      background-color: #293445;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+   html, body, table {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+ <table>
+    <tr>
+      <td align="center" valign="middle">
+<!-- BEGIN weather widget snippet -->
+		<a class="weatherwidget-io" href="https://forecast7.com/en/52d5213d40/berlin/" data-label_1="Berlin" data-label_2="Germany" data-icons="Climacons Animated" data-theme="pure" data-basecolor="" data-textcolor="#ffffff" data-highcolor="#F7B955" data-lowcolor="#4CAFE8" data-suncolor="#F7B955" data-cloudcolor="rgba(135, 134, 134, 0.5)" data-cloudfill="rgba(249, 247, 247, 0.5)" >Berlin Germany</a>
+		<script>
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>
+<!-- END weather widget snippet -->
+      </td>
+    </tr>
+  </table>
+<!-- 
+  Script to change the full-page background color on mouseover.
+  This matches gethomepage.dev's default dark mode widget hover color.
+  On mouseout, the background returns to the default color set in <head>.
+-->  
+  <script>
+    document.body.addEventListener('mouseover', function() {
+      document.body.style.backgroundColor = '#353F4F';
+    });
+    document.body.addEventListener('mouseout', function() {
+      document.body.style.backgroundColor = '#293445';
+    });
+  </script>
+
+</body>
+</html>
+
