@@ -1,0 +1,107 @@
+  - "U-Bahn: Jakob Kaiser Platz":
+      icon: mdi-subway-variant-#F0D722
+      id: public_subway
+      href: https://www.bvg.de/de/verbindungen/verbindungssuche
+      widgets:
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.ubahn.0"
+            - field: "Jakob Kaiser Platz South.ubahn.0"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.ubahn.1"
+            - field: "Jakob Kaiser Platz South.ubahn.1"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.ubahn.2"
+            - field: "Jakob Kaiser Platz South.ubahn.2"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.ubahn.3"
+            - field: "Jakob Kaiser Platz South.ubahn.3"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.ubahn.4"
+            - field: "Jakob Kaiser Platz South.ubahn.4"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.ubahn.5"
+            - field: "Jakob Kaiser Platz South.ubahn.5"
+
+  - "Bus: Kurt Schumacher Damm":
+      icon: mdi-bus-#F0D722
+      id: public_bus
+      href: https://www.bvg.de/de/verbindungen/verbindungssuche
+      widgets:
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.bus.0"
+            - field: "Jakob Kaiser Platz South.bus.0"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.bus.1"
+            - field: "Jakob Kaiser Platz South.bus.1"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.bus.2"
+            - field: "Jakob Kaiser Platz South.bus.2"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.bus.3"
+            - field: "Jakob Kaiser Platz South.bus.3"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.bus.4"
+            - field: "Jakob Kaiser Platz South.bus.4"
+        - public_transport:
+          type: customapi
+          url: https://coolexample.com/pubtrans/pubtrans.json
+          refreshInterval: 300000
+          method: GET
+          mappings:
+            - field: "Jakob Kaiser Platz North.bus.5"
+            - field: "Jakob Kaiser Platz South.bus.5"

@@ -1,0 +1,17 @@
+#public_subway * {
+  text-align: left !important;
+}
+
+#public_subway .flex {
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+#public_bus * {
+  text-align: left !important;
+}
+
+#public_bus .flex {
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
