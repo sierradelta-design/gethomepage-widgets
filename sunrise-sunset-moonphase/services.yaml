@@ -1,9 +1,11 @@
   - "Weather Forecast":
       icon: si-accuweather-#FF6600
+      # Update to reflect to your locale
       href: https://www.accuweather.com/en/de/berlin/10178/weather-forecast/178087
       widgets:
         - weather_berlin:
           type: iframe
+          # Update to reflect to your location
           name: "Berlin, Germany"
           src: "https://coolexample.com/path/to/your/weather/widget.html"
         - moon_phase:
