@@ -1,0 +1,17 @@
+  - "Weather Forecast":
+      icon: si-accuweather-#FF6600
+      href: https://www.accuweather.com/en/de/berlin/10178/weather-forecast/178087
+      widgets:
+        - weather_berlin:
+          type: iframe
+          name: "Berlin, Germany"
+          src: "https://coolexample.com/path/to/your/weather/widget.html"
+        - moon_phase:
+          type: customapi
+          url: "https://coolexample.com/path/to/your/weather/moonphase.json"
+          refreshInterval: 21600000
+          method: GET
+          mappings:
+            - field: sunrise
+            - field: sunset
+            - field: moon_phase
