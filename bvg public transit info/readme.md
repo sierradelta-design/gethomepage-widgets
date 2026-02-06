@@ -1,7 +1,10 @@
-<p align="center">image placeholder</p>
-<p align="center">image placeholder</p>
-The purpose of this script was to replicate a DAISY-Anzeiger on my Homepage dashboard. The data is publicly available through VBB at https://unternehmen.vbb.de/digitale-services/api and documentation for the REST API can be found here: https://v6.vbb.transport.rest  
 
+<p align="center"><img width="1487" height="279" alt="Screenshot 2026-02-06 082008" src="https://github.com/user-attachments/assets/4ccd3526-8b25-4f97-9544-bdd678f0fb38" /></p>  
+<p></p>The purpose of this script was to replicate a DAISY-Anzeiger on my Homepage dashboard. The data is publicly available through VBB at https://unternehmen.vbb.de/digitale-services/api and documentation for the REST API can be found here: https://v6.vbb.transport.rest</p>
+<p align="center">
+  <img width="500" height="375" alt="BVG_DAISY_Bus" src="https://github.com/user-attachments/assets/474b9a61-bd13-4466-bf27-69743a69a658" />
+  <img width="500" height="375" alt="BVG_DAISY_ubahn" src="https://github.com/user-attachments/assets/d199e688-11b8-4959-aff4-c7ddcbcfd1e2" />
+</p>  
 I have this set up on a LAMP stack with a cron job to run `pubtrans.php` once every eight minutes, then output to a JSON file for use with `gethomepage`.  
 
 ***  
