@@ -6,7 +6,7 @@ I have this set up to use a LAMP stack and a cron job to run `moonphase.php` onc
 1. **Upload Files**  
   On your webhost, put `weather.html` and `moonphase.php` in a directory that is publicly accessible, e.g.: ~/public_html/weather
 
-3. **Create a Cron Job**
+3. **Create a Cron Job**  
   Create a cron job that runs the php script once per day:  
   `0 1 * * * /usr/bin/php /home/user/public_html/weather/moonphase.php`
 
